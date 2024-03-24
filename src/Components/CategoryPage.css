@@ -1,0 +1,62 @@
+.shop_page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 75px auto;
+  width: 85%;
+}
+.category_card {
+  opacity: 0.8;
+  background-image: url("https://images.pexels.com/photos/1269968/pexels-photo-1269968.jpeg?auto=compress&cs=tinysrgb&w=600");
+  object-fit: cover;
+  border: none;
+  position: relative;
+  min-width: 17rem;
+  max-width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 230px;
+  background-color: grey;
+  margin: 5px;
+  overflow: hidden;
+  transition: 0.7s all ease-in-out;
+}
+.category_card:hover {
+  transform: scale(0.95);
+  
+}
+.category_name {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  background-color: blue;
+  opacity: 0.8;
+  position: absolute;
+  left: 22%;
+  right: 22%;
+  top: 33%;
+  bottom: 33%;
+  padding: 10px;
+  margin: 0 5px;
+}
+.category_name:hover {
+  opacity: 1;
+}
+.category_name h2 {
+  font-size: 15px;
+}
+.category_name p {
+  font-size: 12px;
+}
+@media screen and (max-width:600px){
+  .shop_page{
+    margin-top: 115px;
+  }
+}

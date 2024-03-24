@@ -1,0 +1,123 @@
+.cart_page_container {
+  display: flex;
+  width: 90%;
+  margin: 75px auto;
+  flex-direction: row;
+}
+.cart_page_container table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.left {
+  width: 80%;
+}
+.cart_header {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* width: 90%; */
+  padding: 0 15px;
+  font-weight: bolder;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
+  /* background-color: red; */
+}
+.cart_items {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cart_item {
+  /* width: 100%; */
+  /* border: 1px solid blueviolet; */
+  /* background-color: gray; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 3px;
+}
+.item_name {
+  font-size: smaller;
+  /* width: 100px; */
+  display: flex;
+  justify-content: flex-start;
+}
+.cart_quantity {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+.quantity_change {
+  /* background-color: green;
+  color: white; */
+  cursor: pointer;
+  margin: 0 10px;
+}
+.cart_trash_btn {
+  color: red;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+.price_details {
+  height: 40%;
+  font-size: 15px;
+  width: 15%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  flex: 35%;
+  margin: 5px 40px;
+  padding: 15px 20px;
+}
+.price_details .adjust_price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.price_details .adjust_price span {
+  font-size: 14px;
+}
+.buy_btn {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2874f0;
+  color: white;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 800px) {
+  .cart_page_container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+  .left {
+    width: 100%;
+  }
+  .price_details {
+    width: 60%;
+  }
+  .cart_quantity {
+  }
+}
+@media screen and (max-width: 500px) {
+  .cart_page_container {
+    width: 90%;
+    margin-top: 130px;
+  }
+}
