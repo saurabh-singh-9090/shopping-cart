@@ -1,4 +1,5 @@
 A functional shopping cart UI implemented with react js and redux. Used axios to fetch data from demo API.
+
 ![Home page](https://github.com/saurabh-singh-9090/shopping-cart/assets/164728355/add17895-a6b6-4122-b637-9111f2f207b1)
 ![image](https://github.com/saurabh-singh-9090/shopping-cart/assets/164728355/e10166b4-1c3b-47fc-9443-d0b7fadc634d)
 ![image](https://github.com/saurabh-singh-9090/shopping-cart/assets/164728355/4e448e12-843c-4e85-99a3-99e7e098cd6b)
