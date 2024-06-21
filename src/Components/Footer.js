@@ -85,16 +85,16 @@ const Footer = () => {
             </div>
             
               <div className="footer_links">
-                <a>Technology</a>
+                <a href="#">Technology</a>
               </div>
               <div className="footer_links">
-                <a>Health</a>
+                <a href="#">Health</a>
               </div>
               <div className="footer_links">
-                <a>Nature</a>
+                <a href="#">Nature</a>
               </div>
               <div className="footer_links">
-                <a>Home Decor</a>
+                <a href="#">Home Decor</a>
               </div>
             
           </div>

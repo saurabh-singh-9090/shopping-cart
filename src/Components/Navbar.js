@@ -9,7 +9,6 @@ import "./Navbar.css";
 const Navbar = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const location = useLocation();
   const storedUserLoggedInInfo = localStorage.getItem("isLoggedIn");
 
   const logoutHandler = () => {

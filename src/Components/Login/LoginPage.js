@@ -11,15 +11,15 @@ const LoginPage = () => {
 
   const [enteredUsername, setEnteredUsername] = useState("");
   const [enteredPassword, setEnteredPassword] = useState("");
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  // const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
 
-  useEffect(() => {
-    const storedUserLoggedInInfo = localStorage.getItem("isLoggedIn");
-    if (storedUserLoggedInInfo === "1") {
-      setIsLoggedIn(true);
-    }
-  }, []);
+  // useEffect(() => {
+  //   const storedUserLoggedInInfo = localStorage.getItem("isLoggedIn");
+  //   if (storedUserLoggedInInfo === "1") {
+  //     setIsLoggedIn(true);
+  //   }
+  // }, []);
 
   const usernameChangeHandler = (event) => {
     setEnteredUsername(event.target.value);
@@ -42,7 +42,7 @@ const LoginPage = () => {
         enteredUsername === user.enteredUsername &&
         enteredPassword === user.enteredPassword
       ) {
-        setIsLoggedIn(true);
+        // setIsLoggedIn(true);
 
         // userName = enteredEmail
         //   .split("@")[0]

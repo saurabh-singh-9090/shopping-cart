@@ -16,7 +16,7 @@ const HomePage = () => {
 
   useEffect(() => {
     dispatch(productList());
-  }, []);
+  }, [dispatch]);
 
   // console.error(categoryData.length);
   // const homeData =
