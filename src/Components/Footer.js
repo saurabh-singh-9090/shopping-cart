@@ -85,16 +85,16 @@ const Footer = () => {
             </div>
             
               <div className="footer_links">
-                <a href="#">Technology</a>
+                Technology
               </div>
               <div className="footer_links">
-                <a href="#">Health</a>
+                Health
               </div>
               <div className="footer_links">
-                <a href="#">Nature</a>
+                Nature
               </div>
               <div className="footer_links">
-                <a href="#">Home Decor</a>
+                Home Decor
               </div>
             
           </div>

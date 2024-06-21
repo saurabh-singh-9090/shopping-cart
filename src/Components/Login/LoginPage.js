@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { IonIcon } from "react-ion-icon";
 import { Link, useNavigate } from "react-router-dom";
 import "./LoginPage.css";
@@ -13,13 +13,6 @@ const LoginPage = () => {
   const [enteredPassword, setEnteredPassword] = useState("");
   // const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
-
-  // useEffect(() => {
-  //   const storedUserLoggedInInfo = localStorage.getItem("isLoggedIn");
-  //   if (storedUserLoggedInInfo === "1") {
-  //     setIsLoggedIn(true);
-  //   }
-  // }, []);
 
   const usernameChangeHandler = (event) => {
     setEnteredUsername(event.target.value);
